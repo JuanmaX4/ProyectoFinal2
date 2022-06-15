@@ -27,8 +27,9 @@ const Header = () => {
       }}
     >
       <Toolbar>
-        <Typography className={classes.font} variant="h4">
-          BlogsApp
+          <Typography className={classes.font} variant="h4">   
+
+          HelioBlogs
         </Typography>
         {isLoggedIn && (
           <Box display="flex" marginLeft={"auto"} marginRight="auto">
